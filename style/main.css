@@ -1,0 +1,111 @@
+:root{
+    --preta:#0c0c0c;
+}
+
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em;
+}
+
+form {
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: yellow;
+
+}
+
+
+/*imagem com todos herois*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/herois.jpg  ');
+
+    height:700px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.item{
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
